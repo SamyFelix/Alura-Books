@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--branco);
+    position: relative;
 }
 .container{
     display: flex;
@@ -19,4 +20,15 @@
     background-repeat: no-repeat;
     display: inline-block;
 }
-
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+.container_botao:checked ~.lista-menu{
+    display: block;
+}
+.lista-menu_titulo,.lista-menu_item{
+    background-color: var(--branco);
+    padding: 1em;
+}
