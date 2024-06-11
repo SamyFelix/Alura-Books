@@ -32,3 +32,17 @@
     background-color: var(--branco);
     padding: 1em;
 }
+.lista-menu_titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+.lista-menu_link{
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+.container_botao{
+    display: none;
+}
