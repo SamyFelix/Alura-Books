@@ -26,7 +26,7 @@
     margin-bottom: 0.5em;
 }
 
-.card_botoes{
+.clard_botoes{
     display: flex;
     justify-content: space-between;
 }
@@ -43,6 +43,10 @@
     padding: 1em;
 }
 
+.descricao_titulo{
+    color:var(--laranja);
+    font-weight:700;
+}
 .descricao_titulo-livro{
     color: var(--azul);
     font-size: 18px;
